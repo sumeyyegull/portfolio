@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portföy Sitesi</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+    <!-- Boxicons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+     
+    <!-- Google Fonts (Poppins) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Sümeyye <span>Gül</span></a>
+        <button id="lang-toggle" class="lang-btn">EN</button>
+        <i class="bx bx-menu" id="menu-icon"></i> <!--dropdown menu-->
+
+        <nav class="navbar">
+            <a href="#home" data-en="Home" data-tr="Anasayfa" class="nav-link">Anasayfa</a>
+            <a href="#about" data-en="About" data-tr="Hakkımda" class="nav-link">Hakkımda</a>
+            <a href="#services" data-en="Skills" data-tr="Yetenekler" class="nav-link">Yetenekler</a>
+            <a href="#projects" data-en="Projects" data-tr="Projeler" class="nav-link">Projeler</a>
+            <a href="#contact" data-en="Contact" data-tr="İletişim" class="nav-link">İletişim</a>
+        </nav>
+
+        
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1 data-en="Hi, I'm <span>Sumeyye</span>" data-tr="Merhaba, Ben <span>Sümeyye</span>">Merhaba, Ben <span>Sümeyye</span></h1>
+            <h3 data-en="I'm a <span>Computer Engineering Student</span>" data-tr="Bilgisayar Mühendisliği <span>Öğrencisiyim</span>">Bilgisayar Mühendisliği <span>Öğrencisiyim</span></h3>
+            <p data-en="I'm always learning and improving my skills through hands-on projects."
+               data-tr="Pratik projelerle sürekli öğreniyor ve yeteneklerimi geliştiriyorum.">
+                Pratik projelerle sürekli öğreniyor ve yeteneklerimi geliştiriyorum.
+            </p>
+            <div class="social-icons">
+                <a href="https://github.com/sumeyyegull" target="_blank" aria-label="GitHub">
+                    <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/sumeyye-gul" target="_blank" aria-label="LinkedIn">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="profile-gradient"></div>
+            <img src="image.jpg" alt="Sümeyye Gül" />
+        </div>
+        
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="image.jpg" alt="Sümeyye Gül" />
+        </div>
+        <div class="about-content">
+            <h2 data-en="About <span>Me</span>" data-tr="<span>Hakkımda</span>">Hakkımda</h2>
+            <<p data-en="Hi! I'm Sumeyye Gül, a Computer Engineering student. I have a strong interest in the game industry, web development, and hardware. I am constantly improving myself in these fields and enjoy applying what I learn to real projects. Working with algorithms, data structures, modern web technologies, and hardware projects motivates me. I am always open to learning new things and participating in different projects."
+   data-tr="Merhaba! Ben Sümeyye Gül, Bilgisayar Mühendisliği öğrencisiyim. Özellikle oyun sektörü, web geliştirme ve donanım alanlarına büyük ilgi duyuyorum. Kendimi bu alanlarda sürekli geliştirmeye çalışıyor, öğrendiklerimi gerçek projelerde uygulamaktan keyif alıyorum. Algoritmalar, veri yapıları, modern web teknolojileri ve donanım projeleriyle çalışmak beni motive ediyor. Yeni şeyler öğrenmeye ve farklı projelerde yer almaya her zaman açığım.">
+    Merhaba! Ben Sümeyye Gül, Bilgisayar Mühendisliği öğrencisiyim. Özellikle oyun sektörü, web geliştirme ve donanım alanlarına büyük ilgi duyuyorum. Kendimi bu alanlarda sürekli geliştirmeye çalışıyor, öğrendiklerimi gerçek projelerde uygulamaktan keyif alıyorum. Algoritmalar, veri yapıları, modern web teknolojileri ve donanım projeleriyle çalışmak beni motive ediyor. Yeni şeyler öğrenmeye ve farklı projelerde yer almaya her zaman açığım.
+</p>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading" data-en="Skills" data-tr="Yetenekler">Yetenekler</h2>
+        <div class="services-container">
+            <div class="services-box">
+                <div class="services-info">
+                    <i class="bx bx-network-chart"></i>
+                    <h4 data-en="Data Structures and Algorithms" data-tr="Veri Yapıları ve Algoritmalar">Veri Yapıları ve Algoritmalar</h4>
+                    <p data-en="Understanding core concepts like arrays, linked lists, trees, graphs, and their algorithms for problem-solving."
+                       data-tr="Diziler, bağlı listeler, ağaçlar, grafikler ve bunların algoritmaları gibi temel kavramların anlaşılması.">
+                        Diziler, bağlı listeler, ağaçlar, grafikler ve bunların algoritmaları gibi temel kavramların anlaşılması.
+                    </p>
+                </div>
+            </div>
+            <div class="services-box">
+                <div class="services-info">
+                    <i class="bx bx-brain"></i>
+                    <h4 data-en="Algorithm and Programming" data-tr="Algoritma ve Programlama">Algoritma ve Programlama</h4>
+                    <p data-en="Experience in solving algorithmic problems, applying different strategies for optimization, and writing efficient code."
+                       data-tr="Algoritmik problemleri çözme, optimizasyon stratejileri uygulama ve verimli kod yazma deneyimi.">
+                        Algoritmik problemleri çözme, optimizasyon stratejileri uygulama ve verimli kod yazma deneyimi.
+                    </p>
+                </div>
+            </div>
+            <div class="services-box">
+                <div class="services-info">
+                    <i class="bx bx-layer"></i>
+                    <h4 data-en="Object-Oriented Programming (OOP)" data-tr="Nesne Yönelimli Programlama (OOP)">Nesne Yönelimli Programlama (OOP)</h4>
+                    <p data-en="Proficient in object-oriented principles such as inheritance, polymorphism, encapsulation, and abstraction in C++."
+                       data-tr="C++ dilinde kalıtım, çok biçimlilik, kapsülleme ve soyutlama gibi nesne yönelimli prensiplere hakim.">
+                        C++ dilinde kalıtım, çok biçimlilik, kapsülleme ve soyutlama gibi nesne yönelimli prensiplere hakim.
+                    </p>
+                </div>
+            </div>
+            <div class="services-box">
+                <div class="services-info">
+                    <i class="bx bx-laptop"></i>
+                    <h4 data-en="Web Design: HTML, CSS, JavaScript, ASP.NET Core MVC" data-tr="Web Tasarım: HTML, CSS, JavaScript, ASP.NET Core MVC">Web Tasarım: HTML, CSS, JavaScript, ASP.NET Core MVC</h4>
+                    <p data-en="Designing responsive websites using HTML, CSS, and JavaScript, along with web development using ASP.NET Core MVC."
+                       data-tr="HTML, CSS ve JavaScript kullanarak duyarlı web siteleri tasarlama ve ASP.NET Core MVC ile web geliştirme.">
+                        HTML, CSS ve JavaScript kullanarak duyarlı web siteleri tasarlama ve ASP.NET Core MVC ile web geliştirme.
+                    </p>
+                </div>
+            </div>
+            <div class="services-box">
+    <div class="services-info">
+        <i class="bx bx-chip"></i>
+        <h4 data-en="Hardware Design & Verilog" data-tr="Donanım Tasarımı & Verilog">Donanım Tasarımı & Verilog</h4>
+        <p data-en="Experience in digital circuit design, simulation, and testing using Verilog HDL. Able to model and implement hardware modules for various applications."
+           data-tr="Verilog HDL ile dijital devre tasarımı, simülasyonu ve testinde deneyimliyim. Farklı uygulamalar için donanım modülleri modelleyip gerçekleştirebiliyorum.">
+            Verilog HDL ile dijital devre tasarımı, simülasyonu ve testinde deneyimliyim. Farklı uygulamalar için donanım modülleri modelleyip gerçekleştirebiliyorum.
+        </p>
+    </div>
+</div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading" data-en="Projects" data-tr="Projeler">Projeler</h2>
+        <div class="projects-container">
+
+
+            <!-- XOX Oyunu -->
+            <div class="project-card">
+                <img src="xox.png" alt="XOX Oyunu" />
+                <h3 data-en="XOX Game" data-tr="XOX Oyunu">XOX Oyunu</h3>
+                <p data-en="Classic Tic-Tac-Toe game implemented in C# with a clean and intuitive UI."
+                   data-tr="Temiz ve sezgisel arayüze sahip, C# ile geliştirilmiş klasik XOX oyunu.">
+                    Temiz ve sezgisel arayüze sahip, C++ ile geliştirilmiş klasik XOX oyunu.
+                </p>
+                <a href="https://github.com/sumeyyegull/xox-game" target="_blank" class="btn" data-en="Review Project" data-tr="Projeyi İncele">Projeyi İncele</a>
+            </div>
+
+            <!-- Labirentten Kaçış -->
+            <div class="project-card">
+                <img src="labirent.png" alt="Labirentten Kaçış" />
+                <h3 data-en="Maze Escape Game" data-tr="Labirentten Kaçış">Labirentten Kaçış</h3>
+                <p data-en="Maze solving game developed with C++ using stack data structure to help players escape the maze."
+                   data-tr="Oyuncuların labirentten verimli çıkmasını sağlayan, C++ yığını veri yapısıyla geliştirilmiş labirent oyunu.">
+                    Oyuncuların labirentten verimli çıkmasını sağlayan, C++ yığını veri yapısıyla geliştirilmiş labirent oyunu.
+                </p>
+                <a href="https://github.com/sumeyyegull/labirentten-kacis" target="_blank" class="btn" data-en="Review Project" data-tr="Projeyi İncele">Projeyi İncele</a>
+            </div>
+
+            <!-- YILDIZ 16-bit CPU (Verilog) -->
+<div class="project-card">
+    <img src="cpu.png" alt="YILDIZ 16-bit CPU" />
+    <h3 data-en="YILDIZ 16-bit CPU (Verilog)" data-tr="YILDIZ 16-bit CPU (Verilog)">YILDIZ 16-bit CPU (Verilog)</h3>
+    <p data-en="A custom 16-bit CPU designed at the hardware level using Verilog HDL. The project includes ALU, control unit, register bank, RAM, and data path modules. All modules are integrated to form a complete CPU architecture. Includes a testbench for simulation and verification."
+       data-tr="Verilog HDL ile donanım seviyesinde tasarlanmış özel bir 16-bit CPU. Projede ALU, kontrol birimi, register bankası, RAM ve veri yolu modülleri bulunur. Tüm modüller birleştirilerek bütünsel bir CPU mimarisi oluşturulmuştur. Doğrulama için testbench de içerir.">
+        Verilog HDL ile donanım seviyesinde tasarlanmış özel bir 16-bit CPU. Projede ALU, kontrol birimi, register bankası, RAM ve veri yolu modülleri bulunur. Tüm modüller birleştirilerek bütünsel bir CPU mimarisi oluşturulmuştur. Doğrulama için testbench de içerir.
+    </p>
+    <a href="https://github.com/sumeyyegull/YildizCPU16" target="_blank" class="btn" data-en="Review Project" data-tr="Projeyi İncele">Projeyi İncele</a>
+</div>
+
+<!-- Çorum Web Sitesi -->
+<div class="project-card">
+    <img src="corumweb.png" alt="Çorum Web Sitesi" />
+    <h3 data-en="Çorum City Web Portal" data-tr="Çorum Web Sitesi">Çorum Web Sitesi</h3>
+    <p data-en="A comprehensive city portal for Çorum, featuring city information, tourist attractions, and an admin panel for adding or deleting content. Developed with modern web technologies and responsive design."
+       data-tr="Çorum hakkında, turistik yerler ve şehir bilgileriyle birlikte; yönetici sayfası üzerinden içerik silme ve ekleme yapılabilen kapsamlı bir şehir portalı. Modern web teknolojileri ve duyarlı tasarımla geliştirilmiştir.">
+        Çorum hakkında, turistik yerler ve şehir bilgileriyle birlikte; yönetici sayfası üzerinden içerik silme ve ekleme yapılabilen kapsamlı bir şehir portalı. Modern web teknolojileri ve duyarlı tasarımla geliştirilmiştir.
+    </p>
+    <a href="#" target="_blank" class="btn" data-en="Review Project" data-tr="Projeyi İncele">Projeyi İncele</a>
+</div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading" data-en="Contact <span>Me</span>" data-tr="<span>İletişim</span>">İletişim</h2>
+        <form action="#">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Ad Soyad" data-en-placeholder="Full Name" data-tr-placeholder="Ad Soyad" />
+                    <input type="email" placeholder="E-posta" data-en-placeholder="Email" data-tr-placeholder="E-posta" />
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Telefon Numarası" data-en-placeholder="Phone Number" data-tr-placeholder="Telefon Numarası" />
+                    <input type="text" placeholder="Konu" data-en-placeholder="Subject" data-tr-placeholder="Konu" />
+                </div>
+            </div>
+            <div class="input-group-2">
+                <textarea placeholder="Mesajınız" data-en-placeholder="Your Message" data-tr-placeholder="Mesajınız" cols="30" rows="10"></textarea>
+                <input type="submit" value="Mesaj Gönder" data-en="Send Message" data-tr="Mesaj Gönder" class="btn" />
+            </div>
+
+            <footer class="footer">
+                <div class="social-icons">
+                    <a href="https://github.com/sumeyyegull" target="_blank" aria-label="GitHub">
+                        <i class="bx bxl-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sumeyye-gul" target="_blank" aria-label="LinkedIn">
+                        <i class="bx bxl-linkedin-square"></i>
+                    </a>
+                </div>
+
+                <ul class="list">
+                    <li><a href="#">SSS</a></li>
+                    <li><a href="#services" data-en="Skills" data-tr="Yetenekler">Yetenekler</a></li>
+                    <li><a href="#about" data-en="About Me" data-tr="Hakkımda">Hakkımda</a></li>
+                    <li><a href="#projects" data-en="Projects" data-tr="Projeler">Projeler</a></li>
+                    <li><a href="#contact" data-en="Contact" data-tr="İletişim">İletişim</a></li>
+                </ul>
+
+                <p class="copyright">© Sümeyye Gül | Tüm Hakları Saklıdır</p>
+            </footer>
+        </form>
+    </section>
+
+   
